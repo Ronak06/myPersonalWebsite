@@ -1,0 +1,62 @@
+body{
+	font-family: 'Playfair Display', serif;
+	text-align: center;
+	background-color: #BDCCD8;
+}
+
+.navbar {
+	background: #BDCCD8;
+	text-align: center;
+}
+
+.jumbotron{
+	background-color: black;
+}
+
+.main{
+	color: black;
+}
+
+.header {
+	background-color: #BDCCD8;
+}
+
+.skills{
+	background-color: #CD6E79;
+}
+
+.projects{
+	background-color: #9E5A8F;
+}
+
+.contact{
+	background-color: #83CD6E;
+	text: #BDCCD8;
+}
+
+span{
+	text: black;
+}
+
+h1{
+	color: white;
+}
+
+p{
+	color: white;
+	font-size: 120%;
+	font-family: 'Karla', sans-serif;
+}
+
+p.lead{
+	color: white;
+}
+
+a:link{
+	color: white;
+	font-size: 120%;
+}
+
+myFooter {
+	font-size: 190%;
+}
