@@ -1,0 +1,139 @@
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" type="text/css" href="styles/mycss.css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- JQUERY imported -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Custom scripts -->
+    <script src="lib/typed.js" type="text/javascript"></script>
+    <script src="scripts/hwanimation.js" type="text/javascript"></script>
+    <script src="scripts/scrollUp.js" type="text/javascript"></script>
+
+    <title>Ronak's Workspace</title>
+  </head>
+  <body onload="myTyped(); scrollFunction()">
+    <button onclick="topFunction()" id="scroll-up"> Top ^ </button>
+    <script>
+      // When the user scrolls down 20px from the top of the document, show the button
+       window.onscroll = function() {scrollFunction()};
+
+      function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+              document.getElementById("scroll-up").style.display = "block";
+          } else {
+              document.getElementById("scroll-up").style.display = "none";
+          }
+      }
+    </script>
+    <div class="main">
+        <div class="jumbotron jumbotron-fluid">
+          <div class="myNavigationBar">
+            <nav class="navbar navbar-expand-lg fixed">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav nav-tabs mr-auto" style="border-bottom:0px">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#resume">Resume</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+          <br />
+          <div id="typedText">
+            <h1 class="display-3"><span id="typed"></span></h1>
+          </div>
+        </div>
+        <div class="skills" id="skills">
+          <h1> Skills </h1>
+          <br />
+          <button class="btn default">Agile</button>
+          <button class="btn default">Microsoft Office</button>
+          <button class="btn default">Git</button>
+          <button class="btn default">DevOps</button>
+          <button class="btn default">Technical Support</button>
+          <button class="btn default">MacOS</button>
+          <button class="btn default">Windows 7/10</button>
+          <br />
+          <button class="btn default">HTML</button>
+          <button class="btn default">CSS</button>
+          <button class="btn default">PHP</button>
+          <button class="btn default">JavaScript</button>
+          <button class="btn default">Java</button>
+          <button class="btn default">SQL</button>
+          <button class="btn default">Software Development</button>
+          <button class="btn default">Information Technology</button>
+          <br /> <br /> <br />
+        </div>
+        <div class="resume" id="resume">
+          <h1> Resume </h1>
+        </div>
+        <div class="projects" id="projects">
+          <h1> Projects </h1>
+          <div class="list-group">
+
+            <div class="WebServer">
+              <div class="d-flex w-100 justify-content-between">
+                <h3 class="p-2">Computer Networks [CPS 706]: Web Server</h5>
+                <small class="ml-auto p-2">March - April 2018</small>
+              </div>
+              <p>Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+              <a href="https://ronaksworkspace.com/myPersonalWebsite" class="fa fa-github">
+                <small>GitHub</small>
+              </a>
+            </div>
+
+            <div class="ArtGallery">
+              <div class="d-flex w-100 justify-content-between">
+                <h3>Web Applications [CPS 630]: Art Gallery</h5>
+                <small>March - April 2018</small>
+              </div>
+              <p>Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+              <button onclick="https://ronaksworkspace.com/myPersonalWebsite" class="fa fa-github">
+                <small>GitHub</small>
+              </a>
+            </div>
+
+            <div class="Cypres">
+              <div class="d-flex w-100 justify-content-between">
+                <h3>Introduction to Software Engineering [CPS 406]: Cypres</h5>
+                <small>March - April 2017</small>
+              </div>
+              <p>Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+              <a href="https://ronaksworkspace.com/myPersonalWebsite" class="fa fa-github">
+                <small>GitHub</small>
+              </a>
+            </div>
+
+          </div>
+        </div>
+        <div class="myFooter">
+          <footer>
+            <a href="https://www.linkedin.com/in/ronak-patel-27032b12b" target="_blank" class="btn btn-primary fa fa-linkedin linkedin" role="button" aria-pressed="true"></a>
+            <a href="https://github.com/Ronak06" target="_blank" class="btn btn-primary fa fa-github github" role="button" aria-pressed="true"></a>
+            <p>© 2018 Ronak Patel</p>
+          </footer>
+        </div>
+      </div>
+  </body>
+</html>
