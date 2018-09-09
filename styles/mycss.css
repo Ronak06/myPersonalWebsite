@@ -1,16 +1,7 @@
 body {
 	font-family: 'Playfair Display', serif;
 	text-align: center;
-}
-
-.jumbotron {
-	background-color: black;
-	background-size: cover;
-	height: 100%;
-	width: 100%;
-}
-
-.main {
+	background-color: #EFEFEF;
 	color: black;
 }
 
@@ -24,64 +15,25 @@ body {
 	width: 100%;
 }
 
-.introduction {
-	background-color: #CD6E79;
-	height: 20%;
+.main {
+	height: 100%;
 }
 
 .projects {
-	background-color: #9E5A8F;
 	height: 75%;
-
 }
 
-.contactme {
-	background-color: teal;
+.skills {
+	height: 40%;
+}
+
+.contact {
 	height: 20%;
-}
-
-.projects h3 {
-	text-align: center;
-}
-
-.WebServer, .ArtGallery, .Cypres{
-	padding: 50px 0px 50px 0px;
-}
-
-.myFooter{
-		background-color: #9E5A8F;
-		padding: 50px 0px 0px 0px;
-}
-
-span {
-	text: black;
-}
-
-h1 {
-	color: white;
-}
-
-p {
-	color: white;
-	font-size: 120%;
-	font-family: 'Karla', sans-serif;
-}
-
-p.lead {
-	color: white;
 }
 
 a:link {
 	color: white;
 	font-size: 120%;
-}
-
-p.card-text {
-	color: black;
-}
-
-a.card-link {
-		color: black;
 }
 
 .btn {
@@ -93,18 +45,6 @@ a.card-link {
     display: inline-block;
 }
 
-.linkedin:hover, .github:hover {
-	background: grey;
-}
-
-.default {
-    color: black;
-}
-
-.default:hover {
-    background: #e7e7e7;
-}
-
 #scroll-up{
 	position: fixed; /* Fixed/sticky position */
   bottom: 20px; /* Place the button at the bottom of the page */
@@ -113,7 +53,7 @@ a.card-link {
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
   background-color: transparent; /* Set a background color */
-  color: blue; /* Text color */
+  color: black; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 15px; /* Some padding */
   font-size: 20px; /* Increase font size */

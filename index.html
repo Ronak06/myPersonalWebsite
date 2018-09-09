@@ -24,7 +24,7 @@
     <title>Ronak's Workspace</title>
   </head>
   <body onload="myTyped(); scrollFunction()">
-    <button onclick="topFunction()" id="scroll-up"> Top ^ </button>
+    <button onclick="topFunction()" id="scroll-up"> Top </button>
     <script>
       // When the user scrolls down 20px from the top of the document, show the button
        window.onscroll = function() {scrollFunction()};
@@ -37,42 +37,48 @@
           }
       }
     </script>
-    <div class="main">
-        <div class="jumbotron jumbotron-fluid">
-          <div class="myNavigationBar">
-            <nav class="navbar navbar-expand-lg fixed">
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav nav-tabs mr-auto" style="border-bottom:0px">
-                  <li class="nav-item">
-                    <a class="nav-link" href="#introduction">Introduction</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#projects">Projects</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#contactme">Contact Me</a>
-                  </li>
-                </ul>
-              </div>
-            </nav>
-          </div>
-          <br />
-          <div id="typedText">
-            <h1 class="display-3"><span id="typed"></span></h1>
-          </div>
-        </div>
-        <div class="introduction" id="introduction">
-          <h1> Introduction </h1>
-        </div>
-        <div class="projects" id="projects">
-          <h1> Projects </h1>
-        </div>
-        <div class="contactme" id="contactme">
-          <h1> Contact Me </h1>
-        </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
       </div>
+    </nav>
+
+    <div class="main">
+      <div id="typedText">
+        <h1 class="display-3"><span id="typed"></span></h1>
+      </div>
+    </div>
+
+    <div class="projects">
+      <h1> Projects </h1>
+    </div>
+
+    <div class="skills">
+      <h1> Skills </h1>
+    </div>
+
+    <div class="contact">
+      <h1> Contact </h1>
+      <div class="footer">
+        <i class="fa fa-github" style="font-size:36px"></i>
+        <i class="fa fa-linkedin" style="font-size:36px"></i>
+        <i class="fa fa-medium" style="font-size:36px"></i>
+      </div>
+    </div>
+
   </body>
 </html>
