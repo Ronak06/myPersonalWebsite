@@ -31,9 +31,12 @@ body {
 	height: 20%;
 }
 
-a:link {
-	color: white;
-	font-size: 120%;
+#contactinfo {
+	color: black;
+}
+
+#contactinfo:hover {
+	color: grey;
 }
 
 .btn {
