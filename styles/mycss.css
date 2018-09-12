@@ -15,8 +15,16 @@ body {
 	width: 100%;
 }
 
+.navbar-nav {
+	background-color: red;
+}
+
 .main {
 	height: 100%;
+}
+
+.introduction {
+	height: 50%;
 }
 
 .projects {
