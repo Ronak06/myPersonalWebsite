@@ -28,8 +28,9 @@ body {
 	display: table;
 }
 
-#scrollDownbtn {
-	vertical-align: bottom;
+.iconbtm {
+	width: 100%;
+	height: 100%;
 }
 
 .introduction {
