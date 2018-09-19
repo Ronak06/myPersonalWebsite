@@ -19,12 +19,17 @@ body {
 	background-color: transparent;
 }
 
-.navbar-nav nav-item:hover {
+.navbar-nav li {
 	color: red;
 }
 
 .main {
 	height: 100%;
+	display: table;
+}
+
+#scrollDownbtn {
+	vertical-align: bottom;
 }
 
 .introduction {
