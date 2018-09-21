@@ -11,14 +11,8 @@
 }
 
 .contact {
-    height: 45%;
+    height: 10%;
     background-color: black;
-}
-
-#contactHeader {
-    position: absolute;
-    left: 2%;
-    color: white;
 }
 
 #contactinfo {
@@ -29,6 +23,15 @@
     color: white;
 }
 
+a.nounderline:link {
+	text-decoration:none;
+}
+
 #contactinfo:hover {
     color: grey;
+}
+
+#footer {
+	bottom: 0;
+	color: white;
 }
