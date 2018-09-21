@@ -32,35 +32,10 @@ a, a:hover{
 	color: black;
 }
 
-.btn {
+.iconbtm {
 	position: absolute;
 	bottom: 10%;
 	left: 50%;
-}
-
-
-.introduction {
-	height: 50%;
-}
-
-.projects {
-	height: 75%;
-}
-
-.skills {
-	height: 40%;
-}
-
-.contact {
-	height: 20%;
-}
-
-#contactinfo {
-	color: black;
-}
-
-#contactinfo:hover {
-	color: grey;
 }
 
 .btn {
@@ -80,7 +55,7 @@ a, a:hover{
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
   background-color: transparent; /* Set a background color */
-  color: black; /* Text color */
+  color: grey; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 15px; /* Some padding */
   font-size: 20px; /* Increase font size */
