@@ -39,6 +39,10 @@ a, a:hover{
 	left: 50%;
 }
 
+img {
+	border-radius: 50%;
+}
+
 .btn {
     border: none;
     background-color: inherit;
@@ -59,5 +63,5 @@ a, a:hover{
   color: grey;
   cursor: pointer;
   padding: 15px;
-  font-size: 20px; 
+  font-size: 20px;
 }

@@ -1,9 +1,9 @@
 .introduction {
-	height: 60%;
+	height: 80%;
 }
 
 .skills {
-	height: 40%;
+	height: 70%;
 }
 
 .projects {
@@ -32,6 +32,5 @@ a.nounderline:link {
 }
 
 #footer {
-	bottom: 0;
 	color: white;
 }
