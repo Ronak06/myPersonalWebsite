@@ -1,12 +1,21 @@
+a.nounderline:link {
+	text-decoration:none;
+}
+
 .contact {
   background-color: black;
+  padding-bottom: 0%;
 }
 
 #contactinfo {
 	color: black;
 }
 
-.fa-github, .fa-linkedin, .fa-medium {
+#contactinfo:hover {
+    color: grey;
+}
+
+.fa-github, .fa-linkedin, .fa-medium, .fa-envelope {
     color: white;
 }
 
@@ -24,16 +33,4 @@
 
 i {
 	margin-right: 15px;
-}
-
-a.nounderline:link {
-	text-decoration:none;
-}
-
-#contactinfo:hover {
-    color: grey;
-}
-
-#footer {
-	color: white;
 }

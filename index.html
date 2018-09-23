@@ -8,12 +8,14 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 
     <!-- My CSS -->
+    <link rel="stylesheet" type="text/css" href="styles/arrowAnimation.css">
+    <link rel="stylesheet" type="text/css" href="styles/contactinfo.css">
     <link rel="stylesheet" type="text/css" href="styles/myCSS.css">
-    <link rel="stylesheet" type="text/css" href="styles/myHeaders.css">
-    <link rel="stylesheet" type="text/css" href="styles/myNavbar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Google Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- JQUERY,Bootstrap imported -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -57,9 +59,6 @@
             <a class="nav-link" href="#skills">Skills</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#projects">Projects</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link" href="#contact">Contact</a>
           </li>
         </ul>
@@ -70,9 +69,9 @@
       <div id="typedText">
         <h1 class="display-3"><span id="typed"></span></h1>
       </div>
-      <div class="iconbtm">
+      <div class="arrow">
         <a id="intro">
-          <i class="fa fa-chevron-down" style="font-size: 35px"></i>
+          <i class="fa fa-chevron-down bounce" style="font-size: 35px"></i>
         </a>
       </div>
     </div>
@@ -83,10 +82,12 @@
           <h1 class="display-4">Who am I?</h1>
           <p class="lead">Hi! My name is Ronak Patel and I'm a Computer Science Co-op Student. I enjoy learning new programming languages, keeping up with emerging technology, and basketball!
           This website consists of a portfolio displaying some of my work, skills, and ultimately my web development skills. The website is coded using HTML, CSS, and native JavaScript; it is hosted via Raspiberry Pi 3. </p>
+          <br />
           <img src="./me.jpg" alt="Me">
         </div>
       </div>
     </div>
+
     <br /><br />
     <div class="skills" id="skills">
       <h1> Skills </h1>
@@ -122,6 +123,7 @@
     <br />
 
     <div class="contact" id="contact">
+      <br />
       <a href="https://github.com/Ronak06" id="contactinfo">
         <i class="fa fa-github" style="font-size:36px"></i>
       </a>
@@ -131,8 +133,9 @@
       <a href="https://medium.com/@ronakpatel0609" id="contactinfo">
         <i class="fa fa-medium" style="font-size:36px"></i>
       </a>
-      <p id="footer"> © Ronak's Workspace, 2018</p>
-
+      <i class="fa fa-envelope-o" style="font-size:36px"></i>
+      <br />
+      <br />
     </div>
 
   </body>
