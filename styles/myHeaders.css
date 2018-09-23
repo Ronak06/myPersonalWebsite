@@ -1,18 +1,5 @@
-.introduction {
-	height: 80%;
-}
-
-.skills {
-	height: 70%;
-}
-
-.projects {
-	height: 45%;
-}
-
 .contact {
-    height: 10%;
-    background-color: black;
+  background-color: black;
 }
 
 #contactinfo {
@@ -21,6 +8,22 @@
 
 .fa-github, .fa-linkedin, .fa-medium {
     color: white;
+}
+
+.fa-github:hover {
+	color: #6E5494;
+}
+
+.fa-linkedin:hover {
+	color: #0077B5;
+}
+
+.fa-medium:hover {
+	color: grey;
+}
+
+i {
+	margin-right: 15px;
 }
 
 a.nounderline:link {

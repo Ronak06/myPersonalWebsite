@@ -5,6 +5,11 @@ body {
 	color: black;
 }
 
+html, body {
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
 #typedText{
 	left: 0;
 	line-height: 200px;
@@ -33,9 +38,9 @@ a, a:hover{
 	text-decoration: none;
 }
 
-.iconbtm {
+.arrow{
 	position: absolute;
-	bottom: 10%;
+	bottom: 5%;
 	left: 50%;
 }
 
