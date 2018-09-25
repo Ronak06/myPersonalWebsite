@@ -61,3 +61,8 @@ img {
 	top: 50%;
 	width: 100%;
 }
+
+ul {
+	list-style: none;
+
+}
