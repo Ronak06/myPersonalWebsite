@@ -1,18 +1,9 @@
 a.nounderline:link {
 	text-decoration:none;
 }
-
 .contact {
-  background-color: black;
-  padding-bottom: 0%;
-}
-
-#contactinfo {
-	color: black;
-}
-
-#contactinfo:hover {
-    color: grey;
+    background-color: black;
+    padding-bottom: 0%;
 }
 
 .fa-github, .fa-linkedin, .fa-medium, .fa-envelope {
