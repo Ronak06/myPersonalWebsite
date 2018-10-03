@@ -25,8 +25,10 @@ body {
     display: inline-block;
 }
 
-img {
-	border-radius: 50%;
+.me {
+    border-radius: 50%;
+    width: 20%;
+    height: auto;
 }
 
 .main {
