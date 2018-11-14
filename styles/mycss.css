@@ -33,7 +33,7 @@ body {
 
 .main {
 	height: 100%;
-	display: table;
+    display: table;
 }
 
 .navbar-nav {
