@@ -2,24 +2,15 @@ a.nounderline:link {
 	text-decoration:none;
 }
 .contact {
-    background-color: black;
     padding-bottom: 0%;
 }
 
 .fa-github, .fa-linkedin, .fa-medium, .fa-envelope {
-    color: white;
+    color: whitesmoke;
 }
 
-.fa-github:hover {
-	color: #6E5494;
-}
-
-.fa-linkedin:hover {
-	color: #0077B5;
-}
-
-.fa-medium:hover {
-	color: grey;
+.fa-github:hover, .fa-linkedin:hover, .fa-medium:hover {
+	color: rgb(153, 224, 226);
 }
 
 i {

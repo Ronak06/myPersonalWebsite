@@ -16,7 +16,8 @@
 
     <!-- Google Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    
     <!-- JQUERY,Bootstrap imported -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
@@ -49,9 +50,9 @@
     </script>
 
     <div class="topnav" id="myTopnav">
-        <a href="#aboutMe">About Me</a>
-        <a href="#skills">Skills</a>
         <a href="#contact">Contact</a>
+        <a href="#skills">Skills</a>
+        <a href="#aboutMe">About Me</a>
         <a href="javascript:void(0);" class="icon" onclick="collapseFunction()">
           <i class="fa fa-bars"></i>
         </a>
@@ -59,61 +60,39 @@
 
     <div class="main">
       <div id="typedText">
-        <h1 class="display-3">Hi, my name is Ronak.</h1>
+        <h1 class="display-3">Welcome! My name is <span id="ronak">Ronak</span>.</h1>
         <h2>I am a <span id="typed"></span></h2>
       </div>
       <div class="arrow">
         <a id="intro">
-          <i class="fa fa-chevron-down bounce" style="font-size: 35px"></i>
+          <i class="fa fa-chevron-down bounce" style="font-size: 35px; color:white"></i>
         </a>
       </div>
     </div>
 
+    <br /> <br /> <br />
+    <br /> <br /> <br />
+    <br /> <br /> <br />
+    <br /> <br /> <br />
+    <br /> <br /> <br />
+
     <div class="introduction" id="introduction">
-      <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-          <h1 class="display-4" id="aboutMe">About Me</h1>
-          <p class="lead">Hi! My name is Ronak Patel and I'm a Computer Science Co-op Student. I enjoy learning new programming languages, keeping up with emerging technology, and basketball!
-          This website consists of a portfolio displaying some of my work, skills, and ultimately my web development skills. The website is coded using HTML, CSS, and native JavaScript; it is hosted via Raspiberry Pi 3. </p>
-          <br />
-          <img src="./images/me.jpg" class="me" alt="Me">
+      <div class="row" id="aboutMe">
+        <div class='col-sm-5'>
+            <img src="./images/me.jpg" class="me" alt="Me">
+        </div>
+        <div class="col-sm-7">
+            <p class="lead">Hi! My name is Ronak Patel and I'm a Computer Science Co-op Student. I enjoy learning new programming languages, keeping up with emerging technology, and basketball!
+            </p>  
         </div>
       </div>
+
+      
     </div>
 
-    <br /><br />
-    <div class="skills" id="skills">
-      <h1> Skills </h1>
-      <div class="row skillsList">
-          <div class="col-sm-4">
-              <h4 id="progLangs">Programming Languages</h4>
-              <ul id="progLangsList">
-                <li>HTML</li>
-                <li>Java</li>
-                <li>JavaScript</li>
-                <li>C</li>
-                <li>SQL</li>
-                <li>Python</li>
-              </ul>
-          </div>
-          <div class="col-sm-4">
-              <h4 id="software">Software</h4>
-              <ul id="softwaresList">
-                <li>Slack</li>
-                <li>Git</li>
-              </ul>
-          </div>
-          <div class="col-sm-4">
-              <h4 id="ide">IDEs</h4>
-              <ul id="idesList">
-                <li>Visual Studio Code</li>
-                <li>Atom</li>
-                <li>Eclipse</li>
-              </ul>
-          </div>
-      </div>
-    </div>
-    <br />
+    <br /><br /><br />
+    <br /><br /><br />
+    <br /><br /><br />
 
     <div class="contact" id="contact">
       <br />
@@ -126,7 +105,6 @@
       <a href="https://medium.com/@ronakpatel0609" id="contactinfo">
         <i class="fa fa-medium" style="font-size:36px"></i>
       </a>
-      <i class="fa fa-envelope-o" style="font-size:36px"></i>
       <br />
       <br />
     </div>

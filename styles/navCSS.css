@@ -1,19 +1,24 @@
 .topnav {
   overflow: hidden;
   background-color: transparent;
+  position: fixed;
+  padding-top: 5px;
+  padding-left: 5px;
 }
 
 .topnav a {
-  float: left;
+  float: right;
   display: block;
-  color: black;
+  color: whitesmoke;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 20px;
+  font-family: 'Playfair Display', serif;
+  margin-right: 5px;
 }
 
 .topnav a:hover {
-  color: blue;
+  color: rgb(153, 224, 226);
 }
 
 .topnav .icon {
