@@ -10,7 +10,7 @@ a.nounderline:link {
 }
 
 .fa-github:hover, .fa-linkedin:hover, .fa-medium:hover {
-	color: rgb(153, 224, 226);
+	color: orange;
 }
 
 i {
