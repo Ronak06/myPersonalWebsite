@@ -11,6 +11,7 @@
     <link rel="stylesheet" type="text/css" href="styles/main.css">
     <link rel="stylesheet" type="text/css" href="styles/navCSS.css">
     <link rel="stylesheet" type="text/css" href="styles/contactinfo.css">
+    <link rel="stylesheet" type="text/css" href="styles/arrowAnimation.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Google Fonts-->
@@ -28,14 +29,13 @@
     <script src="scripts/typedanimation.js" type="text/javascript"></script>
     <script src="scripts/scrollUp.js" type="text/javascript"></script>
     <script src="scripts/scrollToIntro.js" type="text/javascript"></script>
-    <script src="scripts/navToggle.js" type="text/javascript"></script>
 
 
     <title>Ronak Patel</title>
   </head>
 
   <body onload="myTyped(); scrollFunction()">
-    <button onclick="topFunction()" id="scroll-up">
+    <button id="scroll-up">
       <i class="fa fa-chevron-up"></i>
     </button>
     <script>
@@ -64,8 +64,8 @@
               </div>
               <div class="nav-wrapper">
                 <ul>
-                    <li><a href="#">Home</a></li>
                     <li><a href="#aboutMe">About Me</a></li>
+                    <li><a href="#resume">Resume</a></li>
                     <li><a href="#contact">Contact Info</a></li>
                 </ul>
               </div>
@@ -78,20 +78,22 @@
       </div>
       <div class="arrow">
         <a id="intro">
-          <i class="fa fa-chevron-down bounce" style="font-size: 35px; color:black"></i>
+          <i class="fa fa-chevron-down bounce"></i>
         </a>
       </div>
     </div>
 
-    <div class="introduction">
+    <div class="introduction" id="introduction">
       <div class="row" id="aboutMe">
-        <div class='col-sm-5'>
+        <div class="column">
             <img src="./images/me.jpg" class="me" alt="Me">
+             
         </div>
-        <div class="col-sm-7">
-            <p class="lead">Hi! My name is Ronak Patel and I'm a Computer Science Co-op Student. I enjoy learning new programming languages, keeping up with emerging technology, and basketball!
-            </p>  
-        </div>
+        <div class="column">
+         
+          <p class="lead">Hi! My name is Ronak Patel and I'm a Computer Science Co-op Student. I enjoy learning new programming languages, keeping up with emerging technology, and basketball!
+          </p>  
+      </div>
       </div>
     </div>
 
