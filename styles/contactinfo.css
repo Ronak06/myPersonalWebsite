@@ -1,10 +1,10 @@
 a.nounderline:link {
 	text-decoration:none;
 }
+
 .contact {
-	padding-bottom: 0%;
+	bottom: 20px;
 	text-align: center;
-	
 }
 
 .fa.fa-github,.fa.fa-linkedin,.fa.fa-medium {

@@ -23,7 +23,7 @@ body {
 }
 
 .navigation {
-    height: 25%;
+    
 }
 
 .introduction {
@@ -43,6 +43,10 @@ body {
   padding: 0 4px;
 }
 
+.row {
+    text-align: center;
+}
+
 @media screen and (min-width: 801px) {
     .lead {
         font-size: 25px;
@@ -55,7 +59,7 @@ body {
 
 }
 
-@media screen and (max-width: 800px) {
+@media only screen and (max-width: 800px) {
     .column {
         -ms-flex: 100%; /* IE10 */
         flex: 100%;
@@ -69,6 +73,19 @@ body {
     
     .me {
         width: 40%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .me {
+        width: 70%;
+    }
+    .lead {
+        font-size: 5vw;
+        padding: 35px;
+    }
+    .navigation {
+        width: 100%;
     }
 }
 
@@ -89,15 +106,10 @@ body {
     color: #000;
 }
 
-.lead {
-    margin-right: 5%;
-    padding: 225px;
-}
-
 #scroll-up {
     position: fixed;
-    bottom: 20px;
-    right: 30px;
+    bottom: 5px;
+    right: 0px;
     z-index: 99;
     border: none;
     outline: none;

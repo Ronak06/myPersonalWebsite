@@ -1,25 +1,5 @@
-* {
-  box-sizing: border-box;
-}
-
 nav {
-  padding-top: 8px;
-}
-
-.logo {
-  float: left;
-  padding: 8px;
-  margin-left: 16px;
-  margin-top: 8px;
-}
-
-.logo a {
-  color: rgb(0, 0, 0);
-  font-family: 'Playfair Display', serif;
-  font-weight: 700;
-  font-size: 36px;
-  letter-spacing: 0px;
-  text-decoration: none !important;
+  padding-top: 5px;
 }
 
 nav ul {
@@ -29,7 +9,6 @@ nav ul {
 nav ul li {
   display: inline-block;
   padding: 8px;
-  margin-left: 150px;
 }
 
 nav ul li a:hover {
@@ -40,24 +19,15 @@ nav ul li:not(:first-child) {
   margin-left: 25px;
 }
 
-nav ul li:last-child {
-  margin-right: 25px;
-}
-
 nav ul li a { 
   display: inline-block;
   color: #000;
-  
   text-decoration: none !important;
   font-size: 20px;
   font-weight: 1000;
 }
 
 @media screen and (max-width: 864px) {
-  .logo {
-    padding: 0;
-  }
-
   .nav-wrapper {
     position: fixed;
     top: 0;
