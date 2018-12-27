@@ -3,39 +3,41 @@ a.nounderline:link {
 }
 
 .contact {
-	bottom: 20px;
 	text-align: center;
+	background-color: grey;
 }
 
 .fa.fa-github,.fa.fa-linkedin,.fa.fa-medium {
 	font-size: 48px;
+	color: #000;
 } 
 
-.fa-github {
+ {
 	color: #333;
 }
 
 .fa-github:hover {
-	color: grey;
+	color: rgb(173, 55, 197);
 	text-decoration: none !important;
-}
-
-.fa-linkedin {
-	color: #0077B5;
 }
 
 .fa-linkedin:hover {
-	color: blue;	
+	color: #0077B5;	
 	text-decoration: none !important;
-}
-
-.fa-medium {
-	color: #00ab6c;
 }
 
 .fa-medium:hover {
-	color: black;
+	color: #00ab6c;
 	text-decoration: none !important;
+}
+
+.fa.fa-envelope {
+	color: #000;
+	font-size: 48px;
+}
+
+.fa.fa-envelope:hover {
+	color: rgb(219, 191, 100); 
 }
 
 i {
